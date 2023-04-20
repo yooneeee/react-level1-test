@@ -1,0 +1,43 @@
+.App {
+  max-width: 1200px;
+  min-width: 800px;
+  max-height: 800px;
+  margin: auto;
+  box-sizing: content-box;
+}
+.add-form {
+  margin: 20px;
+}
+.add-form,
+.input-group {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.list-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.list-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  width: auto;
+}
+.list {
+  border: 4px solid #21a859;
+  border-radius: 10px;
+  width: 170px;
+  height: 200px;
+  padding: 12px 24px 24px;
+  margin: 10px;
+}
+.title {
+  width: 100%;
+  height: 100px;
+  overflow: clip;
+}
